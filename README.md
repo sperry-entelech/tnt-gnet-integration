@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TNT Limousine GNET Integration
 
-## Getting Started
+A secure, production-ready React Server Component for integrating TNT Limousine pricing with GNET partner platforms.
 
-First, run the development server:
+## 🎯 Features
+
+- **🔒 Secure**: Server-side token validation, no sensitive data exposed to client
+- **⚡ Fast**: React Server Components with optimized pricing calculations  
+- **🎨 Customizable**: Headless UI components with Tailwind CSS
+- **📱 Responsive**: Mobile-friendly interface that works everywhere
+- **🚀 Production-Ready**: Built for enterprise integration requirements
+
+## 🚀 Quick Start
 
 ```bash
+git clone https://github.com/sperry-entelech/tnt-gnet-integration.git
+cd tnt-gnet-integration
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💼 Integration Examples
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Basic Usage
+```tsx
+import { TNTPricingTool } from '@/components/TNTPricingTool';
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+export default function Page() {
+  return (
+    <TNTPricingTool 
+      token="your_gnet_api_token"
+      theme="dark"
+      showLogo={true}
+    />
+  );
+}
+```
 
-## Learn More
+## 📞 Contact
 
-To learn more about Next.js, take a look at the following resources:
+**TNT Limousine**
+- Phone: (804) 972-4550
+- Email: info@tntlimousine.com
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Built with Next.js 15, React Server Components, Tailwind CSS, and Headless UI*
