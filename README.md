@@ -40,6 +40,6 @@ export default function Page() {
 
 **TNT Limousine**
 - Phone: (804) 972-4550
-- Email: info@tntlimousine.com
+- Email: sedan@tntauto.com
 
 *Built with Next.js 15, React Server Components, Tailwind CSS, and Headless UI*
