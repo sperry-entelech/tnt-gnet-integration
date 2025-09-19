@@ -1,7 +1,17 @@
 {
-  "name": "tnt-gnet-component",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@tnt-limousine/gnet-pricing-component",
+  "version": "1.0.0",
+  "private": false,
+  "description": "TNT Limousine React component for GNET platform integration - real-time pricing and booking",
+  "keywords": ["tnt", "limousine", "gnet", "transportation", "booking", "pricing", "react"],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sperry-entelech/tnt-gnet-integration.git"
+  },
+  "author": "TNT Limousine <info@tntlimousine.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
